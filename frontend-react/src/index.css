@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mochi-navy: #0C2B27; /* Very dark bottle green */
+  --color-mochi-ocean: #13463F; /* Deep bottle green */
+  --color-mochi-teal: #206B62; /* Smooth elegant bottle green */
+  --color-mochi-sky: #8BB1AA; /* Muted sage green */
+  --color-mochi-cream: #F3EFE0; /* Elegant warm cream */
+  
+  /* A subtle, light milky cream for cards instead of pure white */
+  --color-white: #FAF6EE;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Custom thin scrollbar for cinematic feel */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #000;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 3px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}

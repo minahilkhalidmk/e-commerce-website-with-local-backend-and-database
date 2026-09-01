@@ -56,7 +56,7 @@ bash
 
 dotnet run
 (The backend runs on http://localhost:5273 or http://localhost:7088 depending on your launchSettings.json)
-Note on Admin Access: On its first run, the API automatically seeds the database with dummy products and assigns the Admin role to minahilkhalid09mk@gmail.com.
+Note on Admin Access: On its first run, the API automatically seeds the database with dummy products and assigns the Admin role to .......
 
 2. Setting up the Frontend
 Open a new terminal and navigate to the frontend directory (auth-frontend).
